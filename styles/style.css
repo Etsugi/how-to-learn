@@ -27,7 +27,7 @@
   z-index: 1;
 }
 
-.logo__header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -329,11 +329,11 @@
 }
 
 .footer__column_content_info {
-  list-style-type: none;
+
 }
 
 .footer__columns_content_social {
-  list-style-type: none;
+
 }
 
 .logo_place_footer {
@@ -358,9 +358,16 @@
 }
 
 .footer__column-links {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  color: white;
+  list-style-type: none;
+}
+
+.footer__column-link {
   color: white;
   text-decoration: none;
 }
